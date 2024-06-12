@@ -29,13 +29,13 @@ public class QnA {
     }
 
     //3. Implement a stream operation to calculate the total number of pages in the library, assuming each book has 200 pages.
-        public void totalPages() {
-            int totalPages = library.getBooks()
-                    .stream()
-                    .mapToInt(book -> 200)
-                    .sum();
-            System.out.println(totalPages);
-        }
+    public void totalPages() {
+        int totalPages = library.getBooks()
+                .stream()
+                .mapToInt(book -> 200)
+                .sum();
+        System.out.println(totalPages);
+    }
 
     //4. How would you use streams to find the book with the earliest publication year?
     public void earliestPublication() {
