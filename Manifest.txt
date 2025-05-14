@@ -1,0 +1,24 @@
+  Collections:
+    What is the difference between ArrayList and LinkedList in Java? Which one is used in the Library class?
+    How can you iterate over the list of books in the Library class using a for loop?
+    What is the purpose of the add() method in the List interface, and how is it used in the Library class?
+    How would you remove a book by title from the list in the Library class?
+    How would you find the index of a book in the list based on the title in the Library class?
+    What happens if you try to add null to the List in the Library class?
+    How would you check if the Library has a book by a specific author?
+    What is the time complexity of searching for an element in an ArrayList?
+    Explain how the List interface differs from the Set interface. Would Set work in the Library class? Why or why not?
+    How would you clear the entire List<Book> in the Library class?
+
+Streams:
+
+    How would you filter the books published after the year 1950 using Java Streams?
+    Write a stream expression to find the first book by J.R.R. Tolkien in the Library class.
+    How would you sort the books in the library by their publication year using Streams?
+    Using Streams, how would you calculate the total number of books in the Library published before 1900?
+    How can you group the books in the library by their author's name using Streams?
+    What is the purpose of the map() function in Streams, and how would you use it to extract the titles of all books in the library?
+    Write a stream expression to find the book with the latest publication year in the Library class.
+    How would you count the number of books in the library that have more than 200 pages (if there was a pages property)?
+    What does the collect() method do in a Stream, and how would you use it to convert the Stream back into a list?
+    Using Streams, how would you print all book titles in the Library?
